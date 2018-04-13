@@ -1,8 +1,48 @@
+html {
+    background-color: black;
+}
+
 header {
     width: 850px;
     background-color: #9532ba;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
+}
 
+#whitebox {
+    width: 850px;
+    background-color: white;
+    height: 90px;
+    margin: 0 auto;
+    
+}
+
+#floatbox {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: lightblue;
+    position: relative;
+    top: 200px;
+    left: 10px;
+}
+
+#namePlate {
+    position: relative;
+    top: 80px;
+    left: 175px;
+}
+
+#navLinks {
+    float: right;
+    top: 150px;
+    width: 400px;
+}
+
+#whiteNav {
+    width: 200px;
+    height: 100px;
+    margin-left: 300px;
+    padding-top: 50px;
     
 }

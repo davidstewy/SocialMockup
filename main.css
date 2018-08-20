@@ -60,7 +60,7 @@ header {
 #navLinks {
     float: right;
    
-    width: 400px;
+    width: 365px;
 }
 
 #whiteNav {
@@ -75,14 +75,103 @@ header {
 #columnLeft {
     width: 328px;
     background-color: white;
-    height: 1000px;
+    
     float: left;
 }
 
 #columnRight {
     width: 512px;
     background-color: white;
-    height: 1000px;
+   
     float: right;
+    
+}
+
+#photoBox {
+    background-color: white;
+    height: 265px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray; 
+    
+}
+
+#photoHeader{
+    background-color: rgb(242, 242, 242);
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 30px;
+    width: 316px;
+    color: rgb(121, 120, 120);
+    margin-bottom: 3px;
+    border-bottom: 1px darkgray solid;
+    
+}
+
+.photo {
+    background-color: #3369c6;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 4px;
+}
+
+#updateBox {
+    
+    height: 290px;
+    width: 510px;
+    border: solid 1px darkgray;
+
+}
+
+#updateHeader {
+  
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 50px;
+    width:502px;
+    color: rgb(121, 120, 120);
+    margin-bottom: 3px;
+    border-bottom: 1px solid darkgray;
+    
+}
+
+#headerBox {
+    height: 40px;
+    width: 40px;
+    background-color: #3369c6;
+    float: left;
+    
+}
+
+#tinyName {
+    float: left;
+    padding-left: 10px;
+    width: 450px;
+}
+
+#updateTime {
+    padding-left: 10px;
+    float: left;
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#updateContent {
+    padding-left: 10px;
+    width: 500px;
+    float: left;
+}
+
+#updateFooter {
+    border-top: 1px darkgray solid;
+    height: 29px;
+    width: 500px;
+    float: left;
+    padding-left: 10px;
+    background-color: rgb(242, 242, 242);
+    padding-top: 10px;
+    
     
 }
